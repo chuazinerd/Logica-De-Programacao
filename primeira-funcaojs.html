@@ -1,21 +1,30 @@
 <meta charset="UTF-8">
 <script>
     
-    function pularLinha() {
+    function pulaLinha() {
         document.write("<br>");
         document.write("<br>"); 
     }
 
+    function mostra(somasDasIdades) {
+
+        document.write(somasDasIdades);
+        pulaLinha();
+
+    }
+
     var ano = 2016;
+
+    mostra("Calculadora de ídades");
+
+    mostra("Flávio tem " + (ano - 1977) + " ano");
+     
+    mostra("Joaquim tem " + (ano - 1977) + " ano");
+
+    var ano= 2017;
+
+    mostra("Barney tem " + (ano - 1977) + " ano");
     
-    document.write("Flavio tem " + (ano - 1977) + " ano")
-
-    pularLinha()
-
-    document.write("Bruno tem " + (ano - 1978) + " ano")
-
-    pularLinha()
-
 
 
 </script>

@@ -1,0 +1,23 @@
+<meta charset="UTF-8">
+
+<script>
+    function pulaLinha() {
+
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+
+    var nome = prompt("Olá! me chamo Chao sou um advinhador, me diga seu nome que eu irei desvendar a sua idade");
+    
+    var dataAtual = new Date();
+    var numero1 = dataAtual.getFullYear();
+    
+    var numero2 = prompt(nome + " Digite seu ano de nascimento");
+
+    mostra(nome + " a sua idade é " + (numero1 - numero2));
+
+</script>
